@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="grid">
+        <div class="slider item">
+            <span>
+                R (Vermelho):
+                <input type="range" id="sliderR" min="0" max="255">
+                <input type="text" id="txtR" value="0" disabled >
+            </span>
+            
+        </div>
+        <div class="slider item">
+            <span>
+                G (Verde):
+                <input type="range" id="sliderG" min="0" max="255">
+                <input type="text" value="0"  id="txtG" disabled >
+            </span>
+        </div>
+        <div class="slider item">
+            <span>
+                B (Azul):
+                <input type="range" id="sliderB" min="0" max="255">
+                <input type="text" value="0"  id="txtB" disabled >
+            </span>
+        </div>
+    </div>
+
+    <div id="boxRGB"></div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

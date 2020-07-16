@@ -1,0 +1,31 @@
+.grid {
+	display: grid;
+}
+
+/* 100px é o valor total, ignora conteúdo, margem e etc. Respeita apenas o min-width do item.*/
+.grid-template-columns-1 {
+	grid-template-columns: 100px 100px 100px 100px;
+}
+
+/* Estilos Gerais */
+.item {
+	margin: 5px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.grid {
+	max-width: 500px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+#boxRGB{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	border: 1px solid #f2f2f2;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
