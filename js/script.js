@@ -23,15 +23,15 @@ function getValueSlider() {
 
 
 function handleEventSlider() {
-    r.addEventListener('change', (event) => {
+    r.addEventListener('input', (event) => {
         document.getElementById('txtR').value = event.target.value;
         changeRGB();
     });
-    g.addEventListener('change', (event) => {
+    g.addEventListener('input', (event) => {
         document.getElementById('txtG').value = event.target.value;
         changeRGB();
     });
-    b.addEventListener('change', (event) => {
+    b.addEventListener('input', (event) => {
         document.getElementById('txtB').value = event.target.value;
         changeRGB();
     });
